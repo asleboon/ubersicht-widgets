@@ -27,7 +27,7 @@ style: """
   padding: 5px;
   border-radius: 5px;
   align-items: center;
-  fontFamily: "PT Mono", sans-serif;
+  font-family: "PT Mono"
   justify-content: space-around;
   font-size: 13px;
 
@@ -43,6 +43,11 @@ style: """
       font-size: 12px
     & i.hidden
       display: none
+
+@font-face {
+    font-family: PT Mono;
+    src: url("./fonts/PTMono-Regular.ttf") format("opentype");
+}
 
 """
 
@@ -60,12 +65,6 @@ render: (output) -> """
     <i style="color: white;" class="fa fa-pause hidden" name="song-pause" aria-hidden="true"></i>
     <i style="color: white;" class="fa fa-forward" name="song-forward" aria-hidden="true"></i>
   </div>
-  <link
-	rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
-    crossOrigin="anonymous"
-  />
 """
 
 # Update the rendered output.
