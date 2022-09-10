@@ -1,0 +1,11 @@
+{
+  "name": "minibar-widget",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Neuton Foo",
+    "email": "neuton.foo@gmail.com",
+    "url": "https://neutonfoo.com"
+  }
+}
