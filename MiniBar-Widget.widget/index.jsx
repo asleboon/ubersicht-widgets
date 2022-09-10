@@ -33,7 +33,6 @@ export const command = dispatch => {
     fetch(
       `https://api.openweathermap.org/data/2.5/weather?q=${options.city}&units=metric&appid=${config.OPENWEATHERMAP_APIKEY}`
     ).then(response => {
-		console.log(response);
       return dispatch({
         type: "WEATHER_UPDATE",
         data: {

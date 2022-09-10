@@ -16,12 +16,12 @@ style: """
 
   player = 1
   bottom = 97.6%
-  right = 56.3%
+  right = 1.5%
 
   bottom: bottom
   right: right
   background-color: rgba(0, 0, 0, 0.8)
-  width: 280px;
+  width: 400px;
   height: 15px;
   display: flex;
   padding: 5px;

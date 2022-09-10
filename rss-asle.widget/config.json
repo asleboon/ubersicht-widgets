@@ -1,0 +1,15 @@
+{
+  "max_items": 5,
+  "feeds": [
+    {
+      "name": "NRK",
+      "url": "https://www.nrk.no/nyheter/siste.rss",
+      "max_items": 5
+    },
+    {
+      "name": "NRK Sport",
+      "url": "https://www.nrk.no/sport/toppsaker.rss",
+      "max_items": 5
+    }
+  ]
+}

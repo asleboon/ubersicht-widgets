@@ -68,4 +68,3 @@ export const render = ({output}) => {
     </div>
   );
 }
-
